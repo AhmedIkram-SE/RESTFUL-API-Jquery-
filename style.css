@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#products {
+    margin-bottom: 20px;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+#Add {
+    background-color: rgb(179, 179, 209);
+    cursor: pointer;
+}
+#uedit {
+    cursor: pointer;
+}
+#close {
+    cursor: pointer;
+}
+#ed {
+    cursor: pointer;
+}
+#delete {
+    cursor: pointer;
+}
+.edit {
+    display: none;
+    
+}
+.edit_show {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
